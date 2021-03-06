@@ -1,0 +1,54 @@
+.location {
+  width: 400px;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.location_image_section {
+  display: flex;
+  padding: 20px;
+  background-color: #523f30;
+  opacity: 0.8;
+}
+
+.location_details_section {
+  padding: 0 20px;
+  background-color: #fff;
+  opacity: 0.8;
+}
+
+.location_image {
+  height: 90px;
+  width: 60px;
+  margin: 0 auto;
+}
+
+.location_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.location_footer {
+  color: white;
+  background-color: #523f30;
+  text-align: center;
+  padding: 20px;
+  opacity: 0.8;
+}
+
+.title {
+  color: #523f30;
+  margin-bottom: 0;
+}
+
+.icon {
+  color: #666;
+}
+
+.link {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}

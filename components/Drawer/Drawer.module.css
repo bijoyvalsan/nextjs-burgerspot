@@ -1,0 +1,40 @@
+@keyframes topToBottom {
+  from {
+    transform: translateY(-100%);
+  }
+
+  to {
+    transform: translateY(0%);
+  }
+}
+
+.wrapper {
+  position: absolute;
+  z-index: 100;
+  right: 0;
+  bottom: 0;
+  transform: translateY(100%);
+  background-color: rgba(255, 232, 171, 1);
+  box-sizing: border-box;
+  box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  padding: 20px;
+  min-width: 270px;
+}
+
+@media (max-width:768px) {
+  .wrapper {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0px;
+    z-index: 100;
+    transform: none;
+    width: 100%;
+    animation-name: topToBottom;
+    animation-duration: 0.4s;
+  }
+}

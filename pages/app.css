@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  margin: 0;
+  background-color: rgba(255, 201, 0, 255);
+}
+
+.about_us {
+  padding: 25px;
+  background-color: #f7f7f7;
+  opacity: 0.8;
+}
+
+.locator {
+  padding: 25px;
+  background-color: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #666;
+}
+
+h1 {
+  color: #523f30;
+}
+
+@media(min-width: 768px) {
+  body {
+    background-image: url("/images/background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
