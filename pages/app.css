@@ -32,7 +32,6 @@ body {
 }
 
 .locator {
-  padding: 25px;
   background-color: transparent;
   display: flex;
   flex-wrap: wrap;
