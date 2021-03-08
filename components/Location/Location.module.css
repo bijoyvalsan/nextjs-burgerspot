@@ -57,7 +57,7 @@
 @media (max-width:768px) {
 
   .location {
-    width: 300px;
+    width: 330px;
     display: flex;
     box-sizing: border-box;
   }
