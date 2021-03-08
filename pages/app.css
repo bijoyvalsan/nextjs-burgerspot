@@ -13,8 +13,8 @@ body {
   margin: 0;
   background-color: rgba(255, 201, 0, 255);
   background-image: url("/images/background.png");
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: repeat-y;
   background-position: center;
 }
 
@@ -22,6 +22,13 @@ body {
   padding: 25px;
   background-color: #f7f7f7;
   opacity: 0.8;
+}
+
+.contact_us {
+  padding: 25px;
+  background-color: #f7f7f7;
+  opacity: 0.8;
+  width: 100%;
 }
 
 .locator {
@@ -42,6 +49,14 @@ p {
 
 h1 {
   color: #523f30;
+}
+
+.download_link {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: black;
+  font-size: 16px;
 }
 
 @media(max-width: 768px) {
