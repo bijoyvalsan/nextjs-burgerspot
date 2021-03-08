@@ -81,11 +81,14 @@
   text-decoration: none;
   outline: none;
   color: #666;
+  height: 42px;
+  width: 42px;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
 }
 
-.mobile_content_section {
- 
-}
+.mobile_content_section {}
 
 .mobile_content_header {
   display: flex;

@@ -12,6 +12,10 @@ body {
   height: 100%;
   margin: 0;
   background-color: rgba(255, 201, 0, 255);
+  background-image: url("/images/background.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .about_us {
@@ -40,11 +44,11 @@ h1 {
   color: #523f30;
 }
 
-@media(min-width: 768px) {
+@media(max-width: 768px) {
   body {
-    background-image: url("/images/background.png");
+    background-image: url("/images/m_background.png");
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-position: center;
   }
 }
